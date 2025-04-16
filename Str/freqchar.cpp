@@ -1,24 +1,26 @@
-#include<iostream>
+#include <iostream>
+#include <unordered_map>
+#include <string>
 using namespace std;
-void countfreq( string str){
-    sort(str.begin(), str.end());
-    char ch = str[0];
-    int count = 1;
-    for( int i =0; i< str.size(); i++){
-        if(str[i]==ch){
-            count++;
-        }
-        else{
-            
-            cout<<ch<<count<<" ";
-            count = 1;
-            ch = str[i];
+
+void countfreq(string str) {
+    unordered_map<char, int> freq;
+
+    // Count frequency of each character
+    for (char c : str) {
+        freq[c]++;
+    }
+
+    // Print the frequencies
+    for (char c : str) {
+        if (freq[c] != 0) {
+            cout << c << freq[c] << " ";
+            freq[c] = 0; // Avoid printing again
         }
     }
-    cout<<ch<<count<<" ";
-
 }
-int main (){
+
+int main() {
     string str = "fardinkazi";
     countfreq(str);
 }

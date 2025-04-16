@@ -4,7 +4,8 @@ int count( string str){
     int vowels = 0,  constants = 0,  whitespaces = 0;
     for( int i =0; i<str.length(); i++){
         str[i]=tolower(str[i]);
-    }for( int i =0; i<str.length(); i++){
+    }
+    for( int i =0; i<str.length(); i++){
         if( str[i]=='a'|| str[i]=='e'|| str[i]=='i'|| str[i]=='o'|| str[i]=='u'){
             vowels++;
         }
