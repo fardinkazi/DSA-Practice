@@ -17,10 +17,10 @@ int main (){
     string ipstr;
     cin>>ipstr;
     if(ispalindrome(ipstr)){
-        cout<<"Sting "<<ipstr<<" is Palindrome"<<endl;
+        cout<<"String "<<ipstr<<" is Palindrome"<<endl;
     }
     else{
-        cout<<"Sting "<<ipstr<<" is not a Palindrome"<<endl;
+        cout<<"String "<<ipstr<<" is not a Palindrome"<<endl;
     }
 
 }

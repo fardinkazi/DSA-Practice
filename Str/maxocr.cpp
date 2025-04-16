@@ -20,13 +20,10 @@ char mamxocc(string str) {
 }
 
 int main() {
-    string str = "farrrrdinkazi";
-    
-    // Sort the string to arrange characters in order
-    sort(str.begin(), str.end());
-
-    // Print the character that has the maximum frequency
+    string str = "farrrraaaaaaaaadinkazi";
     cout << "Maximum Occurring Character is " << mamxocc(str);
+    cout<<endl;
 
     return 0;
+
 }
