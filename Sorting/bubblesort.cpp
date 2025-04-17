@@ -7,7 +7,7 @@ void bubble_sort(int arr[],int n){
             if(arr[j]>arr[j+1]){
                  int temp = arr[j];
                 arr[j] = arr[j+1];
-                arr[j+1] = temp;
+                arr[j+1] =  temp;
             }
 
         }
@@ -27,6 +27,7 @@ int main(){
     for(int i = 0; i<n; i++){
         cout<<arr[i]<<" ";
     }
+    cout<<endl;
     return 0;
 
 }

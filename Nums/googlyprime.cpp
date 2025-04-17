@@ -1,3 +1,4 @@
+//This program checks if the sum of digits of a number n is a prime number.
 #include <iostream>
 using namespace std;
 string helper (int n){
