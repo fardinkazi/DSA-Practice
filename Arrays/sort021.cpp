@@ -18,7 +18,7 @@ void sortArray(vector<int>& arr, int n) {
             mid++;
         }
         else {
-            swap(arr[mid], arr[high]);
+            swap(arr[high], arr[mid]);
             high--;
         }
     }

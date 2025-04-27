@@ -26,6 +26,7 @@ int main(){
     for(int i =0; i<n; i++){
         cin>>arr[i];
     }
+    sort(arr, arr + n);
     int x; 
     cout<<"Enter target: ";
     cin>>x;

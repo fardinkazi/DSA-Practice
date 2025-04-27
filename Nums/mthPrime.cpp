@@ -4,7 +4,7 @@ Find the m-th prime number and the n-th prime number.
 For each of these two prime numbers, calculate the sum of its digits repeatedly until the result is a single-digit number (i.e., less than 10).
 Let these results be m1 and n1.
 Finally, print the value of m * m1.
-TestCases: m=5 n=6
+TestCases: m=5 n=6 
 Output
 10
 Explaination

@@ -3,7 +3,7 @@
 using namespace std;
 int cnt(int arr[], int n){
     int cnt  = 0;
-    int max = INT_MIN;
+    int max = 0;
     for( int i=0; i<n;i++){
         if(max<arr[i]){
             cnt++;
@@ -15,7 +15,7 @@ int cnt(int arr[], int n){
 
 int main(){
 
-int arr[] = {2,7,4,8,9,3,5,11};
+int arr[] = {1,2,3,4,5};
 int n = sizeof(arr)/sizeof(arr[0]);
 int ans = cnt(arr,n);
 cout<<ans;

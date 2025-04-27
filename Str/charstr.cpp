@@ -17,5 +17,5 @@ int main(){
     char chr1, chr2;
     cin>>chr1;
     cin>>chr2;
-    cout<<replacechar(str, chr1, chr2);
+    cout<<replacechar(str, chr1, chr2)<<endl;
 }
