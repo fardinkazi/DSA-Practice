@@ -1,4 +1,7 @@
 #include<iostream>
+#include<vector>
+#include <algorithm>
+
 using namespace std;
 int binarySearch(int arr[], int n, int x){
     int low = 0; int high = n-1;

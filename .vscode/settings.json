@@ -73,7 +73,8 @@
         "numbers": "cpp",
         "text_encoding": "cpp",
         "thread": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "list": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
