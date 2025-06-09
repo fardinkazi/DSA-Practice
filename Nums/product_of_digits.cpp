@@ -10,7 +10,7 @@ long long calculatePrice(long long n) {
     
     // Extract digits and multiply them
     while(n > 0) {
-        int n % 10;digit =     // Get last digit
+        int digit = n%10;    // Get last digit
         product *= digit;      // Multiply with current product
         n /= 10;              // Remove last digit
     }
